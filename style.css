@@ -1,0 +1,115 @@
+
+body {
+    background-color: #F5E6CC;
+    font-family: Arial, sans-serif;
+    margin: 8px;
+}
+
+
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    color: #8B4513;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+
+
+nav {
+    background-color: #8B4513;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav td {
+    padding: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+section table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+section th,
+section td {
+    border: 1px solid #8B4513;
+    padding: 10px;
+    text-align: left;
+}
+
+section td img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+}
+
+section th {
+    background-color: #8B4513;
+    color: #FFFFFF;
+}
+
+
+
+section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+footer {
+    background-color: #8B4513;
+    color: #FFFFFF;
+    padding: 20px;
+    
+}
+
+footer table {
+    width: 100%;
+}
+
+footer td {
+    width: 50%;
+    padding: 10px;
+}
+
+footer h3 {
+    color: #FFFFFF;
+}
+
+
+/* Adaptación a pantallas de 1024 píxeles */
+
+main,
+section,
+section table {
+    max-width: 100%;
+}
+
+section table {
+    table-layout: fixed;
+}
+
+section th,
+section td {
+    overflow-wrap: anywhere;
+}
+
+main video {
+    max-width: 100%;
+    height: auto;
+}
